@@ -1,0 +1,23 @@
+<html>
+<body>
+<center>
+<h1>Registration Form</h1>
+<form action="/action_page_binary.asp">
+  <label for="aname">Author Name:</label><br>
+  <input type="text" id="aname" name="aname" pattern="[A-Za-z].{1,}" title="only alphabets" required><br><br>
+  <label for="pdate">Published date:</label><br>
+  <input type="date" id="pdate" name="pdate" required><br><br>
+  <label for="bname">Book Name:</label><br>
+  <input type="text" id="bname" name="bname" pattern="[A-Za-z].{1,}" title="only alphabets" required><br><br>
+  <label for="bprice">Book Price:</label><br>
+  <input type="number" id="bprice" name="bprice" required><br><br>
+  <label for="ctime">Time:</label><br>
+  <input type="time" div id="ctime" name="ctime" required><br><br><br>
+  <a href="booksearch.html">
+   <input type="button" value=" List all books" />
+  </a>
+  <button type="button">Submit</button>
+</form>
+</center>
+</body>
+</html>
